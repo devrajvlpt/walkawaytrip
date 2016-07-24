@@ -1,4 +1,4 @@
 python
-gunicron
+gunicorn
 django
 psycopg2
