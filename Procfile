@@ -1,1 +1,1 @@
-web: gunicorn walkawaytrip.wsgi --log-file -
+web: gunicorn walkawaytrip.wsgi  -b 0.0.0.0:$PORT
