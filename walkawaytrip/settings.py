@@ -124,13 +124,13 @@ USE_TZ = True
 
 PROJECT_ROOT = os.path.normpath(os.path.dirname(__file__))
 
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 
 
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR,  '/walkawaytrip/static'),
+    os.path.join(PROJECT_ROOT ,  'static'),
     #'E:/propbuild/static/',
     
 )
