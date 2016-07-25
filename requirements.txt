@@ -1,4 +1,4 @@
 python
 gunicorn
 django
-psycopg2
+psycopg2==2.4.5
