@@ -1,1 +1,1 @@
-web : gunicorn walkawaytrip.wsgi:mytrips
+web : gunicorn walkawaytrip.wsgi
