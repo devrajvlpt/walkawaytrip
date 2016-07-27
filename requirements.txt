@@ -3,3 +3,4 @@ gunicorn
 django
 psycopg2==2.4.5
 dj_static
+dj-database-url
