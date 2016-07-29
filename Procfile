@@ -1,1 +1,1 @@
-web : web: gunicorn walkawaytrip.wsgi
+web: gunicorn walkawaytrip.wsgi --log-file -
